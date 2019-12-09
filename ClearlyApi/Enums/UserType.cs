@@ -1,5 +1,5 @@
 ﻿using System;
-namespace clearlyApi.Enums
+namespace ClearlyApi.Enums
 {
     public enum UserType
     {

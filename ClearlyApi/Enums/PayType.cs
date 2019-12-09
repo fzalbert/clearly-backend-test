@@ -1,4 +1,4 @@
-﻿namespace clearlyApi.Enums
+﻿namespace ClearlyApi.Enums
 {
     public enum PayType
     {
