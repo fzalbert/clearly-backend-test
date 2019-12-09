@@ -1,0 +1,9 @@
+/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.csprojAssemblyReference.cache
+/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.csproj.CoreCompileInputs.cache
+/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.AssemblyInfoInputs.cache
+/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.AssemblyInfo.cs
+/Users/albertfajzullin/Projects/clearly-backend/Utils/bin/Debug/netcoreapp2.2/Utils.deps.json
+/Users/albertfajzullin/Projects/clearly-backend/Utils/bin/Debug/netcoreapp2.2/Utils.dll
+/Users/albertfajzullin/Projects/clearly-backend/Utils/bin/Debug/netcoreapp2.2/Utils.pdb
+/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.dll
+/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.pdb

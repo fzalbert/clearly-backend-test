@@ -17,7 +17,14 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj": {
+            "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj"
+          },
+          "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj": {
+            "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -53,6 +60,10 @@
           "target": "Package",
           "version": "[2.2.0, )",
           "autoReferenced": true
+        },
+        "Microsoft.OpenApi": {
+          "target": "Package",
+          "version": "[1.1.4, )"
         },
         "Pomelo.EntityFrameworkCore.MySql": {
           "target": "Package",

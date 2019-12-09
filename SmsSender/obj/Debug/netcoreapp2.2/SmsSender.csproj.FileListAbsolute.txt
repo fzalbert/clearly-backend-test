@@ -1,0 +1,9 @@
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/bin/Debug/netcoreapp2.2/SmsSender.deps.json
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/bin/Debug/netcoreapp2.2/SmsSender.dll
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/bin/Debug/netcoreapp2.2/SmsSender.pdb
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/Debug/netcoreapp2.2/SmsSender.csprojAssemblyReference.cache
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/Debug/netcoreapp2.2/SmsSender.csproj.CoreCompileInputs.cache
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/Debug/netcoreapp2.2/SmsSender.AssemblyInfoInputs.cache
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/Debug/netcoreapp2.2/SmsSender.AssemblyInfo.cs
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/Debug/netcoreapp2.2/SmsSender.dll
+/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/Debug/netcoreapp2.2/SmsSender.pdb

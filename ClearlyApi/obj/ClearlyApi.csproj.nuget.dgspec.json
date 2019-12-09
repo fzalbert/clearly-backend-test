@@ -17,7 +17,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/albertfajzullin/.config/NuGet/NuGet.Config"
+          "/Users/albertfajzullin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -27,7 +27,14 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj": {
+                "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj"
+              },
+              "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj": {
+                "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,6 +71,10 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -71,6 +82,106 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj",
+        "projectName": "SmsSender",
+        "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj",
+        "packagesPath": "/Users/albertfajzullin/.nuget/packages/",
+        "outputPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/albertfajzullin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj",
+        "projectName": "Utils",
+        "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj",
+        "packagesPath": "/Users/albertfajzullin/.nuget/packages/",
+        "outputPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/albertfajzullin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
