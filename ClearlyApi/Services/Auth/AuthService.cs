@@ -17,10 +17,12 @@ namespace ClearlyApi.Services.Auth
         private ApplicationContext DbContext { get; set; }
         private ISmsProvider SmsProvider { get; set; }
 
+        private EmailService EmailService { get; set; }
         public AuthService(ApplicationContext applicationContext, ISmsProvider smsProvider)
         {
             DbContext = applicationContext;
             this.SmsProvider = smsProvider;
+            this.EmailService = new EmailService();
         }
 
         public BaseResponse Auth(User user)
@@ -34,9 +36,8 @@ namespace ClearlyApi.Services.Auth
                 switch (loginType)
                 {
                     case LoginType.Email:
-                        var toEmail = new String[1];
-                        toEmail[0] = user.Login;
-                        SmsProvider.SendByEmail(toEmail, randomNumber.ToString());
+                        var toEmail = user.Login;
+                        EmailService.SendEmailAsync(toEmail, "Cleanly код активации", randomNumber.ToString());
                         break;
                     case LoginType.Phone:
                         SmsProvider.Send(null, user.Login, randomNumber.ToString());
@@ -73,9 +74,8 @@ namespace ClearlyApi.Services.Auth
                 switch (loginType)
                 {
                     case LoginType.Email:
-                        var toEmail = new String[1];
-                        toEmail[0] = login;
-                        SmsProvider.SendByEmail(toEmail, randomNumber.ToString());
+                        var toEmail = login;
+                        EmailService.SendEmailAsync(toEmail, "Cleanly код активации", randomNumber.ToString());
                         break;
                     case LoginType.Phone:
                         SmsProvider.Send(null, login, randomNumber.ToString());
