@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClearlyApi.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20191209181345_Init")]
-    partial class Init
+    [Migration("20191210142252_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

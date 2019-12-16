@@ -17,6 +17,7 @@ namespace ClearlyApi.Services.Chat.Manager
 
         public virtual async Task OnConnected(WebSocket socket, string userLogin)
         {
+
             WebSocketConnectionManager.AddSocket(socket, userLogin);
         }
 

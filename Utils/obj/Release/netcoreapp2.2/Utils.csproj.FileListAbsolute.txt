@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\clearly-backend\Utils\bin\Release\netcoreapp2.2\Utils.deps.json
+C:\Users\Administrator\Desktop\clearly-backend\Utils\bin\Release\netcoreapp2.2\Utils.dll
+C:\Users\Administrator\Desktop\clearly-backend\Utils\bin\Release\netcoreapp2.2\Utils.pdb
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Release\netcoreapp2.2\Utils.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Release\netcoreapp2.2\Utils.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Release\netcoreapp2.2\Utils.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Release\netcoreapp2.2\Utils.dll
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Release\netcoreapp2.2\Utils.pdb

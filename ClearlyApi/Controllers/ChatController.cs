@@ -174,6 +174,9 @@ namespace clearlyApi.Controllers
             [FromQuery(Name = "pageSize")] int pageSize
             )
         {
+            if (pageNumber < 1)
+                pageNumber = 1;
+
             var user = _dbContext.Users
                 .Include(u => u.Person)
                 .FirstOrDefault(x => x.Login == User.Identity.Name);
@@ -187,8 +190,6 @@ namespace clearlyApi.Controllers
 
             var messages = _dbContext.Messages
                 .Where(m => m.UserId == user.Id)
-                .Skip(pageNumber * pageSize)
-                .Take(pageSize)
                 .ToList();
 
             var result = new List<MessageDTO>();

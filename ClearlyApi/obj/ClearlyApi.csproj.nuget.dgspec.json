@@ -1,38 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/Users/albertfajzullin/Projects/clearly-backend/ClearlyApi/ClearlyApi.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\clearly-backend\\ClearlyApi\\ClearlyApi.csproj": {}
   },
   "projects": {
-    "/Users/albertfajzullin/Projects/clearly-backend/ClearlyApi/ClearlyApi.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\clearly-backend\\ClearlyApi\\ClearlyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/albertfajzullin/Projects/clearly-backend/ClearlyApi/ClearlyApi.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\ClearlyApi\\ClearlyApi.csproj",
         "projectName": "ClearlyApi",
-        "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/ClearlyApi/ClearlyApi.csproj",
-        "packagesPath": "/Users/albertfajzullin/.nuget/packages/",
-        "outputPath": "/Users/albertfajzullin/Projects/clearly-backend/ClearlyApi/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\ClearlyApi\\ClearlyApi.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\ClearlyApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/albertfajzullin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj": {
-                "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj"
+              "C:\\Users\\Administrator\\Desktop\\clearly-backend\\SmsSender\\SmsSender.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\SmsSender\\SmsSender.csproj"
               },
-              "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj": {
-                "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj"
+              "C:\\Users\\Administrator\\Desktop\\clearly-backend\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\Utils\\Utils.csproj"
               }
             }
           }
@@ -77,7 +79,7 @@
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -92,25 +94,27 @@
         }
       }
     },
-    "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\clearly-backend\\SmsSender\\SmsSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\SmsSender\\SmsSender.csproj",
         "projectName": "SmsSender",
-        "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/SmsSender.csproj",
-        "packagesPath": "/Users/albertfajzullin/.nuget/packages/",
-        "outputPath": "/Users/albertfajzullin/Projects/clearly-backend/SmsSender/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\SmsSender\\SmsSender.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\SmsSender\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/albertfajzullin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,25 +146,27 @@
         }
       }
     },
-    "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\clearly-backend\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/Utils.csproj",
-        "packagesPath": "/Users/albertfajzullin/.nuget/packages/",
-        "outputPath": "/Users/albertfajzullin/Projects/clearly-backend/Utils/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\clearly-backend\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/albertfajzullin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

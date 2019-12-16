@@ -27,6 +27,10 @@ namespace ClearlyApi.Services.Chat.Manager
         }
         public void AddSocket(WebSocket socket, string userLogin)
         {
+            var prevSocket = GetSocketById(userLogin);
+            if (prevSocket != null)
+                _sockets.TryRemove(userLogin,out prevSocket);
+
             _sockets.TryAdd(userLogin, socket);
         }
 

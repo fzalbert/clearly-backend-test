@@ -95,7 +95,7 @@ namespace ClearlyApi
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Rosseti API v0.1.1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cleanly API v0.1.1");
                 c.DocExpansion(DocExpansion.None);
                 c.RoutePrefix = string.Empty;
             });

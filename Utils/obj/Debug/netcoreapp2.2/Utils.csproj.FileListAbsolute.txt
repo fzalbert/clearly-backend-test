@@ -7,3 +7,12 @@
 /Users/albertfajzullin/Projects/clearly-backend/Utils/bin/Debug/netcoreapp2.2/Utils.pdb
 /Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.dll
 /Users/albertfajzullin/Projects/clearly-backend/Utils/obj/Debug/netcoreapp2.2/Utils.pdb
+C:\Users\Administrator\Desktop\clearly-backend\Utils\bin\Debug\netcoreapp2.2\Utils.deps.json
+C:\Users\Administrator\Desktop\clearly-backend\Utils\bin\Debug\netcoreapp2.2\Utils.dll
+C:\Users\Administrator\Desktop\clearly-backend\Utils\bin\Debug\netcoreapp2.2\Utils.pdb
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Debug\netcoreapp2.2\Utils.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Debug\netcoreapp2.2\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Debug\netcoreapp2.2\Utils.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Debug\netcoreapp2.2\Utils.dll
+C:\Users\Administrator\Desktop\clearly-backend\Utils\obj\Debug\netcoreapp2.2\Utils.pdb

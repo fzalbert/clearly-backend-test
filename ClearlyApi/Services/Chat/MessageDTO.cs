@@ -35,17 +35,21 @@ namespace ClearlyApi.Services.Chat
 
         }
 
-
+        [JsonProperty("isAdmin")]
         public bool IsAdmin { get; set; }
+        [JsonProperty("type")]
         public MessageType Type { get; set; }
+        [JsonProperty("data")]
         public string Data { get; set; }
-
+        [JsonProperty("created")]
         public DateTime Created { get; set; }
     }
 
     public class PackagesList
     {
+        [JsonProperty("packages")]
         public List<PackageDTOResponse> Packages { get; set; }
+        [JsonProperty("orderId")]
         public int OrderId { get; set; }
     }
 }

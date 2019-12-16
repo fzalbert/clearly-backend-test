@@ -1,5 +1,6 @@
 ﻿using ClearlyApi.Entities;
 using ClearlyApi.Enums;
+using Newtonsoft.Json;
 
 namespace clearlyApi.Dto.Response
 {
@@ -16,13 +17,18 @@ namespace clearlyApi.Dto.Response
             Type = package.Type;
         }
 
+        [JsonProperty("id")]
         public int Id { get; set; }
+        [JsonProperty("title")]
         public string Title { get; set; }
 
+        [JsonProperty("description")]
         public string Description { get; set; }
 
+        [JsonProperty("price")]
         public int Price { get; set; }
 
+        [JsonProperty("type")]
         public PackageType Type { get; set; }
     }
 }

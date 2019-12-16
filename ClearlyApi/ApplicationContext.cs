@@ -21,7 +21,7 @@ namespace ClearlyApi
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=127.0.0.1;UserId=root;Password=albert1997;database=cleanly;");
+            optionsBuilder.UseMySql("server=127.0.0.1;UserId=root;Password=Ivan230691;database=cleanly;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

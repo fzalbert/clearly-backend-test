@@ -14,10 +14,11 @@ namespace ClearlyApi.Services.Chat
 
         public override async Task OnConnected(WebSocket socket, string userLogin)
         {
+
             await base.OnConnected(socket, userLogin);
 
             var socketId = WebSocketConnectionManager.GetId(socket);
-            await SendMessageToAllAsync($"{socketId} is now connected");
+            //await SendMessageToAllAsync($"{socketId} is now connected");
         }
 
         public override async Task ReceiveAsync(WebSocket socket, WebSocketReceiveResult result, byte[] buffer)

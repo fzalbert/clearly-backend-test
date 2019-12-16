@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\bin\Release\netcoreapp2.2\SmsSender.deps.json
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\bin\Release\netcoreapp2.2\SmsSender.dll
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\bin\Release\netcoreapp2.2\SmsSender.pdb
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\obj\Release\netcoreapp2.2\SmsSender.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\obj\Release\netcoreapp2.2\SmsSender.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\obj\Release\netcoreapp2.2\SmsSender.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\obj\Release\netcoreapp2.2\SmsSender.dll
+C:\Users\Administrator\Desktop\clearly-backend\SmsSender\obj\Release\netcoreapp2.2\SmsSender.pdb
