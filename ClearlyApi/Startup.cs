@@ -54,7 +54,7 @@ namespace ClearlyApi
             
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Rosseti API", Version = "v0.1.1" });
+                c.SwaggerDoc("v1", new Info { Title = "Cleanly API", Version = "v0.1.1" });
 
                 // Swagger 2.+ support
                 var security = new Dictionary<string, IEnumerable<string>>
