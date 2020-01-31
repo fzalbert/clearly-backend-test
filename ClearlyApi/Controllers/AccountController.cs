@@ -35,6 +35,9 @@ namespace clearlyApi.Controllers
             if (!Validator.TryValidateObject(request, new ValidationContext(request), null, true))
                 return Json(new { Status = false, Message = "Required Property Not Found" });
 
+            if(request.Code != "12345")
+                return Json(new { Status = false, Message = "неверный пароль" });
+            
             switch (request.Type)
             {
                 case LoginType.Email:
